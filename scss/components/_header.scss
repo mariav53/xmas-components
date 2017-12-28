@@ -1,0 +1,31 @@
+header{
+	background: url('../img/cover.jpg') no-repeat;
+ 	background-size: 100% 100%;
+	height: 250px;
+	@media all and (max-width:768px) {
+       height: 150px ;
+    }	
+}
+
+.rectangle{
+  width: auto;
+  height: 30px;
+  background-color: $light-grey; 
+ }
+
+.rectangle-text{
+	 width: 327px;
+  	height: 19px;
+	 font-family: $font;
+	 font-size: 14px;
+	 color: #304268;
+	padding-top: 6px;
+	padding-button: 5px;
+    padding-left: 135px;
+    @media all and (max-width:768px) {
+       padding-left: 49px;
+    } 
+    @media all and (max-width:550px) {
+       padding-left: 30px;
+    }
+}
